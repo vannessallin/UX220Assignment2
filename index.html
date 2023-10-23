@@ -28,13 +28,13 @@
         <h1>Assignment 2</h1>
     </header>
     <main>
-        <section id="section_1"></section>
-        <section id="section_2"></section>
-        <section id="section_3"></section>
-        <section id="section_4"></section>
-        <section id="section_5"></section>
-        <section id="contact"></section>
-        <section id="about"></section>
+        <x-markdown2html src="items/experience_1.md" id="section_1"></x-markdown2html>
+        <x-markdown2html src="items/experience_2.md" id="section_2"></x-markdown2html>
+        <x-markdown2html src="items/experience_3.md" id="section_3"></x-markdown2html>
+        <x-markdown2html src="items/experience_4.md" id="section_4"></x-markdown2html>
+        <x-markdown2html src="items/experience_5.md" id="section_5"></x-markdown2html>
+        <x-markdown2html src="contact.md" id="contact"></x-markdown2html>
+        <x-markdown2html src="about.md" id="about"></x-markdown2html>
     </main>
     <footer>
         <p>Your name here</p>
@@ -43,32 +43,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.js"></script>
-    <script>
-        $("document").ready(() => {
-            $.get("items/experience_1.md").then((sData) => {
-                $("#section_1").append(marked(sData));
-            });
-            $.get("items/experience_2.md").then((sData) => {
-                $("#section_2").append(marked(sData));
-            });
-            $.get("items/experience_3.md").then((sData) => {
-                $("#section_3").append(marked(sData));
-            });
-            $.get("items/experience_4.md").then((sData) => {
-                $("#section_4").append(marked(sData));
-            });
-            $.get("items/experience_5.md").then((sData) => {
-                $("#section_5").append(marked(sData));
-            });
-            $.get("contact.md").then((sData) => {
-                $("#contact").append(marked(sData));
-            });
-            $.get("about.md").then((sData) => {
-                $("#about").append(marked(sData));
-            });
-        });
-    </script>
+    <script src="https://rhildred.github.io/custom-element/custom-element.js"></script>
 </body>
 
 </html>
