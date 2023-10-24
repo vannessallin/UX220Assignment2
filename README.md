@@ -44,7 +44,7 @@ F	Still having nightmares
 I am looking for at least 5 completely developed experiences for a total of 10 points. There are 10 more marks relating to branding your document with css.
 
 | item | marks |
-| --- | --- :
+|---|---:
 | 5 completely developed experiences | 10 |
 | choose 2 complimentary fonts from google fonts and incorporate them in your css. 1 for headings and 1 for body text | 2 |
 | choose at least 3 complimentary and sufficiently contrasting color foregrounds and backgrounds to use for your navbar and footer and buttons and put them in the root element of your css file | 2 |
