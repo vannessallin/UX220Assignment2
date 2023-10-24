@@ -53,4 +53,28 @@ I am looking for at least 5 completely developed experiences for a total of 10 p
 | create some whitespace between the items | 2 |
 | total | 20 |
 
+*NOTE*
+
+One of the technical items for this assignment is a root css element. A css root element ia useful for declaring global CSS variables for styling of multiple selectors. 
+The basic format is:
+
+```css
+:root {
+  --main-background: hotpink;
+  --main-foreground: silver;
+  --pane-padding: 5px 42px;
+}
+
+```
+
+To consume a css variable we use it like this:
+
+```css
+body{
+    background-color: var(--main-background);
+    foreground-color: var(--main-foreground);
+
+}
+```
+
 This is a scaffold for the assignment.
