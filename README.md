@@ -45,15 +45,15 @@ I am looking for at least 5 completely developed experiences for a total of 10 p
 
 | item | marks |
 |---|---:
-| 5 completely developed experiences | 10 |
-| choose 2 complimentary fonts from google fonts and incorporate them in your css. 1 for headings and 1 for body text | 2 |
-| choose at least 3 complimentary and sufficiently contrasting color foregrounds and backgrounds to use for your navbar and footer and buttons and put them in the root element of your css file | 2 |
-| color the nav using your theme | 2 |
-| color the footer using your theme | 2 |
-| create some whitespace between the items | 2 |
-| total | 20 |
+| 5 completely developed experiences | 5 |
+| choose 2 complimentary fonts from google fonts and incorporate them in your css. 1 for headings and 1 for body text | 1 |
+| choose at least 3 complimentary and sufficiently contrasting color foregrounds and backgrounds to use for your navbar and footer and buttons and put them in the root element of your css file | 1 |
+| color the nav using your theme | 1 |
+| color the footer using your theme | 1 |
+| create some whitespace between the items | 1 |
+| total | 10 |
 
-*NOTE*
+*NOTE:*
 
 One of the technical items for this assignment is a root css element. A css root element ia useful for declaring global CSS variables for styling of multiple selectors. 
 The basic format is:
