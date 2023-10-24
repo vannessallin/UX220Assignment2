@@ -8,7 +8,8 @@ npm install
 npm start
 ```
 
-or surf to `https://diy-pwa.dev/~/gh/rhildred/UX220Assignment2`
+or surf to [https://diy-pwa.dev/~/gh/rhildred/UX220Assignment2](https://diy-pwa.dev/~/gh/rhildred/UX220Assignment2). 
+The first time you clone a repository you will need to enter your github username, email address and a token that you can generate on github under developer settings.
 
 ```bash
 npm install
