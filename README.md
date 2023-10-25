@@ -78,4 +78,8 @@ body{
 }
 ```
 
-This is a scaffold for the assignment.
+Another technical element for this assignment is **Markdown**. 
+Markdown is used by programmer's web sites like stack overflow and github to generate documentation with code samples. 
+If you are reading this in your code editor you can hopefully see what I mean. There is a complete specification of github flavored markdown [here](https://github.github.com/gfm/)
+
+This is a scaffold for the assignment. Please submit an issue on the repository or email me if you have questions or concerns.
